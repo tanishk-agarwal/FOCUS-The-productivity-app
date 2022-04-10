@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    ;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+body{
+     background-color: rgb(255, 255, 255);
+}
+
+
+#new{
+    color: rgb(red, green, blue);
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+
+.wrapper{
+    width: 400px;
+    border: 2px solid white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+}
+.container{
+    width: 100%;
+    background-color: lightsalmon;
+    padding: 40px 50px;
+    box-shadow: 0 30px 55px rgb(0, 0, 0);
+    position: relative;
+    border-radius: 8px;
+}
+.container:after{
+    content: "";
+    position: relative;
+    width: 80%;
+    height: 120%;
+    background-color:white;
+    z-index: -1;
+    top: 10px;
+}
+.container p{
+    color: rgb(0, 0, 0);
+    line-height: 2;
+    font-size: 18px;
+
+}
+.container h3{
+    color: rgb(0, 0, 0);
+    margin:50px 0 40px 60px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.container button{
+    background-color: white;
+    border: none
+    ;
+    padding: 15px 45px ;
+    margin-left: 45px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.container button:hover{
+    background-color:black;
+    color: white;
+}
+/* .container :hover{
+    background-color: white;
+    color: blue;
+} */
+/* .wrapper:hover{
+    background-color: white;
+    color: blueviolet;
+} */
+
+

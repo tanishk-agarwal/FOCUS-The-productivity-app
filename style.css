@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Press+Start+2P&family=Redressed&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300&family=Press+Start+2P&family=Roboto:ital,wght@1,300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Merriweather', sans-serif;
+    background-color: white;
+}
+
+.logo{
+    text-align: center;
+    font-family: 'Redressed', sans-serif;
+    font-size: 3rem;
+    padding: 30px;
+    margin: 15px;
+}
+.img {
+    padding: 30px 30px;
+    
+}
+/* .btns{
+    display: inline-block;
+    float: right;
+    padding: 30px;
+} */
+.btn1{
+    padding: 10px 25px;
+    margin: 3px;
+}
+main{
+    text-align: center;
+}
+
+.heading {
+
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+p{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.btn2{
+    padding: 20px 50px;
+    margin: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.get-strted-btn {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to right,rgb(97, 88, 230), rgb(186, 216, 228));
+
+}/*
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -1;
+    width: 80px;
+    height: 80px;
+    background: lightgoldenrodyellow;
+    border-radius: 50%;
+    opacity: 0.1;
+
+    animation: flying 10s infinite ease-in;
+
+}
+.bubble:nth-child(1){
+    width: 50px;
+    height: 50px;
+    right: 20%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(2){
+    width: 20px;
+    height: 20px;
+    left: 20%;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(3){
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+.bubble:nth-child(4){
+    width: 70px;
+    height: 70px;
+    left: 20%;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(5){
+    width: 100px;
+    height: 100px;
+    /* left: 20%; */
+    /* right: 10%; */
+    /* animation-duration: 9s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(6){
+    width: 50px;
+    height: 50px;
+    right: 20%;
+    animation-duration: 6s;
+    animation-delay: 2s;
+}
+@keyframes flying {
+    0% {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        bottom: 1080px;
+        transform: translateX(0);
+    }
+
+} */
